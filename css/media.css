@@ -1,0 +1,311 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	body{
+		margin: 0;
+	}
+    /*nav*/
+    .navbar{
+    	display: flex;
+
+    }
+    .navbar-toggler{
+    	margin-left: auto;
+
+    }
+
+	/*banner*/
+	
+	.b_content h1{
+		font-size: 50px;
+	}
+	.b_content h4{
+		font-size: 16px;
+		letter-spacing: 5.5px;
+		padding-left: 10px;
+	}
+	/*process*/
+	.process{
+		padding: 80px 0;
+	}
+	.p_h1{
+		font-size: 40px;
+	}
+	.p_item{
+		margin-top: 33px;
+	}
+	.p_item h4{
+		font-size: 25px;
+	}
+	/*commitment*/
+	.commitment{
+		padding: 60px 0;
+	}
+	.c_h6{
+		font-size: 15px;
+		padding-bottom: 30px;
+        text-align: center;
+	}
+	/*service*/
+	.services{
+		padding: 60px 0;
+	}
+	.s_h1{
+		font-size: 40px;
+	}
+	/*offering*/
+	.offering{
+		padding: 60px 0;
+	}
+	.o_h1{
+		font-size: 40px;
+		padding-bottom: 0;
+	}
+	.o_h4{
+		font-size: 16px;
+		padding: 40px 0 0;
+	}
+	.o_content{
+		padding-top: 0;
+		text-align: center;
+	}
+	.o_img{
+		padding: 30px;
+        border-radius: 89px;
+	}
+	/*team*/
+	.team{
+		padding: 60px 0;
+	}
+	.team-section{
+		padding: 0;
+	}
+	.team-member{
+		margin-bottom: 0;
+		padding: 15px 30px ;
+	}
+	/*form*/
+	.form{
+		padding: 60px 0;
+	}
+	.faq{
+		padding-top: 40px;
+	}
+	/*contact*/
+	.contact{
+		padding: 30px 0;
+	}
+	.co_h2{
+		font-size: 50px;
+	}
+	.co_p{
+		font-size: 25px;
+		font-weight: 400;
+	}
+	.co_plast{
+		font-size: 16px;
+	}
+	.c_icon ul{
+		justify-content: center;
+	}
+	.con_p{
+		justify-content: center;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	/*banner*/
+	.banner{
+		padding: 100px 0;
+	}
+	.b_content h1{
+		font-size: 50px;
+	}
+	.b_content h4{
+		font-size: 18px;
+	}
+	/*commitment*/
+	.commitment{
+		padding: 60px 0;
+	}
+	.c_h6{
+		font-size: 18px;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	/*process*/
+	.process{
+		padding: 60px 0;
+	}
+	.p_h1{
+		font-size: 50px;
+	}
+	.p_item{
+		margin-top: 30px;
+	}
+	
+	/*service*/
+	.services{
+		padding: 60px 0;
+	}
+	.s_h1{
+		font-size: 50px;
+	}
+	/*offering*/
+	.offering{
+		padding: 60px 0;
+	}
+	.o_content{
+		padding-top: 0;
+		text-align: center;
+	}
+	.o_h1{
+		padding-bottom: 0;
+	}
+	.o_img{
+		padding: 30px;
+        border-radius: 89px;
+	}
+	
+	/*team*/
+	.team{
+		padding-top: 60px;
+	}
+	.t_h1{
+		font-size: 50px;
+	}
+	.team-section{
+		padding: 0;
+	}
+	/*form*/
+	.form{
+		padding: 60px 0;
+	}
+	.faq{
+		padding-top: 40px;
+	}
+	.faq h2{
+		font-size: 35px;
+	}
+	/*contact*/
+	.contact{
+		padding: 20px 0;
+	}
+	
+	.c_icon ul{
+		justify-content: center;
+	}
+	.con_p{
+		justify-content: center;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/*banner*/
+	.b_content h1{
+		font-size: 70px;
+	}
+	.b_content h4 {
+    font-size: 16px;
+    }
+    /*process*/
+    .process{
+    	padding: 80px 0;
+    }
+    .p_item h4 {
+    font-size: 18px;
+    }
+    /*commitment*/
+    .commitment{
+    	padding: 80px 0;
+    }
+    .c_h6 {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    }
+    /*offering*/
+    .offering{
+    	padding: 80px 0;
+    }
+    .o_h1 {
+    font-size: 48px;
+    padding-top: 10px;
+    }
+    .o_h4 {
+    font-size: 20px;
+    padding-top: 30px;
+    }
+    /*team*/
+    .team{
+    	padding-top: 80px;
+    }
+   /*form*/
+   .form{
+   	padding: 80px 0;
+   }
+   .faq{
+   	padding-top: 40px;
+   }
+   
+   /*contact*/
+   .contact{
+   	padding: 40px 0;
+   }
+   .con_p {
+    font-size: 19px;
+   }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner*/
+	.b_content h4{
+		font-size: 38px;
+	}
+	/*process*/
+	.p_item h4 {
+    font-size: 24px;
+    }
+    /*commitment*/
+    .c_h6 {
+    font-size: 18px;
+    }
+    .o_h1 {
+    font-size: 48px;
+    padding-top: 5px;
+    }
+    .o_h4 {
+    font-size: 28px;
+    padding-top: 40px;
+    }
+    /*team*/
+    .team-member h3{
+    	font-size: 24px;
+    }
+    .team-member .position{
+    	font-size: 17px;
+    }
+   .faq h2 {
+    font-size: 30px;
+    }
+    .ui-accordion .ui-accordion-header {
+    font-size: 15px;
+    padding: 12px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/* Extra extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+	
+}
